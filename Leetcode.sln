@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{074940A0-6550-4ECF-A601-1D3B7E37F79B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode", "src\leetcode\leetcode.csproj", "{171CF10B-4026-4C66-9AFE-27D3E5E75D52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcodeTest", "test\leetcodeTest\leetcodeTest.csproj", "{857A461D-A7D0-4853-83DD-E039C7F16843}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6C78144B-791F-441C-AAF7-E8C2DD8272D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder1", "SolutionFolder1", "{ECEF7ED3-525D-4994-84F8-AC393FF46499}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{171CF10B-4026-4C66-9AFE-27D3E5E75D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171CF10B-4026-4C66-9AFE-27D3E5E75D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171CF10B-4026-4C66-9AFE-27D3E5E75D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171CF10B-4026-4C66-9AFE-27D3E5E75D52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{857A461D-A7D0-4853-83DD-E039C7F16843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{857A461D-A7D0-4853-83DD-E039C7F16843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{857A461D-A7D0-4853-83DD-E039C7F16843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{857A461D-A7D0-4853-83DD-E039C7F16843}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{171CF10B-4026-4C66-9AFE-27D3E5E75D52} = {074940A0-6550-4ECF-A601-1D3B7E37F79B}
+		{857A461D-A7D0-4853-83DD-E039C7F16843} = {6C78144B-791F-441C-AAF7-E8C2DD8272D0}
+	EndGlobalSection
+EndGlobal
